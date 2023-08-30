@@ -28,7 +28,10 @@
 7. Открываем файл `data/keys` и забиваем туда приватники акков которые хотите чтоб привязались к Galxe
 8. Открываем файл `data/tasks_for_claim` и забиваем туда линки для клейма задач
 9. Открываем терминале, находясь в папке проекта, вписываем команду `python3 main.py` и жмем ENTER.
-
-
 ## в файле "data/config" нужно поменять значение W на свое (инструкция ниже)
 ![image](https://user-images.githubusercontent.com/117441696/210056890-bc69281a-a7aa-4681-9722-4d65fd07c957.png)
+
+ 
+Donate (evm) : 0x98F93AD29d4Fe210b9D33E910335C88C333db87A
+
+Public : https://t.me/CodeCashMafia.
