@@ -118,6 +118,9 @@ async def execute_async_task(task, proxies_mapping):
 
 
 def main():
+    print(f'\n{" " * 32}AUTHOR - https://t.me/CodeCashMafia{" " * 32}\n')
+    print(f'\n{" " * 32}donate - EVM 0x98F93AD29d4Fe210b9D33E910335C88C333db87A{" " * 32}\n')
+
     proxies_mapping = get_wallet_proxies(keys, proxies)
     if config['mode'] == 'complete_social_tasks' or config['mode'] == 'claim_points':
         asyncio.run(execute_async_task(config['mode'], proxies_mapping))
@@ -134,6 +137,8 @@ def main():
 
     logger.success(f'finished {len(keys)} wallets...')
 
+    print(f'\n{" " * 32}AUTHOR - https://t.me/CodeCashMafia{" " * 32}\n')
+    print(f'\n{" " * 32}donate - EVM 0x98F93AD29d4Fe210b9D33E910335C88C333db87A{" " * 32}\n')
 
 if __name__ == "__main__":
     main()
